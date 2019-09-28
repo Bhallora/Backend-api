@@ -1,0 +1,22 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "express and mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js --exec babel-node - e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pallab",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
