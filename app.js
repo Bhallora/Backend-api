@@ -3,12 +3,12 @@ var morgan = require ('morgan');
 var bodyParser = require('body-parser');
 let employees = require('./data/employees.json');
 const _ = require('lodash');
-import router from './routes/EmpoyeeRoute';
-import EmployeeRoute from './routes/EmpoyeeRoute';
+const router = require ('./routes/EmpoyeeRoute');
+var  EmployeeRoute = require('./routes/EmpoyeeRoute');
 //import https from 'https';
 
 
-const PORT = 3002;
+const PORT = 3000;
 
 const server = express();
 
